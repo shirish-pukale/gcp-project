@@ -1,15 +1,19 @@
 variable "project_id" {
-  description = "Your GCP Project ID"
+  description = "GCP project ID"
+  default     = "melodic-realm-457907-g8"
 }
 
 variable "region" {
-  default = "us-central1"
+  description = "GCP region"
+  default     = "us-central1"
 }
 
 variable "zone" {
-  default = "us-central1-a"
+  description = "GCP zone"
+  default     = "us-central1-a"
 }
 
 variable "docker_image" {
-  default = "secret-word-app"
+  description = "The Docker image to deploy"
+  default     = "secret-word-app"
 }
