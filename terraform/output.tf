@@ -1,4 +1,5 @@
 output "load_balancer_ip" {
-  description = "IP address of the Load Balancer"
+  description = "Access your app at http://<this_ip>"
   value       = google_compute_address.static_ip.address
 }
+
