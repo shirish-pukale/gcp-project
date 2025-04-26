@@ -1,0 +1,15 @@
+{
+    "name": "secret-word-app",
+    "version": "1.0.0",
+    "description": "A simple Express app to show a secret word",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
