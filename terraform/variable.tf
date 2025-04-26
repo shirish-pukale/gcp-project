@@ -17,3 +17,8 @@ variable "docker_image" {
   description = "The Docker image to deploy"
   default     = "secret-word-app"
 }
+
+variable "domain_name" {
+  description  = "The domain name"
+  default      = "mydomain"
+}
